@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    text-align: center;
+    margin-top: 10rem;
+    position: relative;
+    bottom: 2rem;
+}
+
+.sec1{
+   display: flex;
+   justify-content: center;
+   position: relative;
+}
+#bir{
+    
+    width: 40%;
+    padding: 15px;
+    border: 2px solid rgb(209, 205, 205);
+    border-radius: 5rem;
+    cursor: pointer;
+}
+i{
+    position: absolute;
+    top: 1.5rem;
+    left: 38rem;
+}
+#mic{
+    position: absolute;
+    left: 80rem;
+    top: 0.5rem;
+}
+
+
+.sec2{
+    position: absolute;
+    top: 26rem;
+    left: 50rem;
+    
+}
+#but1{
+    padding: 0.8rem ;
+    border-style: none;
+    color: gray;
+    
+}
+#but2{
+    padding: 0.8rem 2rem;
+    border-style: none;
+    color: gray;
+}
+
+footer{
+
+
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 6rem;
+font-size: large;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
