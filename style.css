@@ -10,6 +10,15 @@ header{
     position: relative;
     bottom: 2rem;
 }
+main{
+    width: 55em; 
+    margin: 1em auto;
+    display: flex;
+        justify-content: center;
+       
+  
+    }
+
 
 .sec1{
    display: flex;
@@ -18,7 +27,8 @@ header{
 }
 #bir{
     
-    width: 40%;
+   
+    width: 52em;
     padding: 15px;
     border: 2px solid rgb(209, 205, 205);
     border-radius: 5rem;
@@ -27,19 +37,23 @@ header{
 i{
     position: absolute;
     top: 1.5rem;
-    left: 38rem;
+    left: 1em;
 }
 #mic{
     position: absolute;
-    left: 79rem;
+    right: 0em;
+   
     top: 0.5rem;
 }
 
 
 .sec2{
-    position: absolute;
-    top: 26rem;
-    left: 50rem;
+    width: 30em;
+    margin: 1em auto ;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+   
     
 }
 #but1{
@@ -49,7 +63,7 @@ i{
     
 }
 #but2{
-    padding: 0.8rem 2rem;
+    padding: 0.8rem ;
     border-style: none;
     color: gray;
 }
@@ -60,7 +74,7 @@ footer{
 display: flex;
 justify-content: center;
 align-items: center;
-margin-top: 6rem;
+margin-top: 3rem;
 font-size: large;
 
 }
